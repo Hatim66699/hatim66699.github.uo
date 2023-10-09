@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: antiquewhite;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.navigation a{ 
+    color: grey;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+section{
+    padding: 100px 200px;
+    flex-direction: column;
+
+}
+span{
+    font-size: large;
+}
+.main{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    }
+    body{
+
+    background: url("Backgroundimg.jpg") no-repeat;
+    background-size: 1920px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2{
+    
+    color: beige;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: blue;
+    font-size: 3em;
+    font-weight: 600;
+
+}
+.main h3{
+    color: aliceblue;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px ;    
+}
+.main-btn{
+    color: antiquewhite;
+    background-color: blue;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline;
+    padding: 0.375 2,.1875 ;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7 ease;
+}
+.main-btn:hover{
+    background-color: blue;
+    transform: scale(1.1);
+}
+img{ 
+    padding-right: 2%;  
+}
+
